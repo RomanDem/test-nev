@@ -1,0 +1,134 @@
+* {
+    outline: red solid;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 5px;
+    position: relative;
+}
+
+.carousel-inner {
+    position: absolute;
+
+}
+
+.carousel-inner img {
+    opacity: 0.8;
+}
+
+.img-gradient:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, #ff4e50, #f9d423);
+    opacity: 0.2;
+}
+
+.nav__content {
+    position: absolute;
+    z-index: 9999;
+}
+
+.nav__content .font-fest {
+    width: -webkit-calc(100% - 152px);
+    width: -o-calc(100% - 152px);
+    width: calc(100% - 152px);
+
+    height: calc(100% - 24px);
+    height: -webkit-calc(100% - 24px);
+    height: -webkit-calc(100% - 24px);
+    height: -o-calc(100% - 24px);
+
+    font-family: Montserrat;
+
+    font-size: 20px;
+
+
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 17%;
+    margin-top: 3.2%;
+}
+
+
+
+
+
+.btn-outline-light {
+    border: none;
+    width: calc(100% - 90px);
+    height: calc(100% - 36px);
+    margin: 0;
+    padding: 0;
+}
+
+.btn-outline-light {
+    max-width: 90px;
+    max-height: 36px;
+    text-decoration: none;
+    margin-top: 3.2%;
+    color: ffffff;
+}
+
+.btn-outline-light:last-child {
+    margin-right: 20%;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+    border-radius: 40px;
+    border: solid 2px #ffffff;
+    background-color: #ffffff00;
+}
+
+.text-h1 {
+    width: 450px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0;
+    position: absolute;
+    top: 223px;
+}
+
+.text-h2 {
+    position: absolute;
+    top: 378px;
+
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.mt-auto.bd-highlight .btn {
+    position: absolute;
+    width: 225px;
+    height: 40px;
+
+    top: 436px;
+    background: #FF4E50;
+    border: 2px solid #FF4E50;
+    border-radius: 35px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+}
